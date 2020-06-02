@@ -1,0 +1,14 @@
+﻿<Window x:Class="HiCheckOn.modifyHoliday"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="modifyHoliday" Height="320" Width="662">
+    <Grid>
+        <Label Content="节假日" HorizontalAlignment="Left" Margin="38,65,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbHoliday" HorizontalAlignment="Left" Height="48" Margin="116,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="489"/>
+        <Label Content="调休" HorizontalAlignment="Left" Margin="38,124,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbLeaveInLieu" HorizontalAlignment="Left" Height="48" Margin="116,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="489"/>
+        <Button Content="确定" HorizontalAlignment="Left" Margin="530,210,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="格式必须为&quot;xxxx-xx-xx&quot;，中间用英文逗号隔开。" HorizontalAlignment="Left" Margin="116,21,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
